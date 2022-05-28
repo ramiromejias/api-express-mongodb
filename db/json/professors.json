@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6292932ca95456c6f16e54f7"
+  },
+  "pname": "Ramiro",
+  "plastname": "Mejías Rodríguez",
+  "age": 40,
+  "univid": "62929258a95456c6f16e54f5"
+},{
+  "_id": {
+    "$oid": "6292935aa95456c6f16e54f8"
+  },
+  "pname": "María",
+  "plastname": "FLores Rodríguez",
+  "age": 35,
+  "univid": "62929258a95456c6f16e54f5"
+},{
+  "_id": {
+    "$oid": "62929382a95456c6f16e54f9"
+  },
+  "pname": "Roberto",
+  "plastname": "González Plana",
+  "age": 30,
+  "univid": "6292927aa95456c6f16e54f6"
+},{
+  "_id": {
+    "$oid": "6292939ba95456c6f16e54fa"
+  },
+  "pname": "Rosa",
+  "plastname": "Cuervo Nieves",
+  "age": 38,
+  "univid": "6292927aa95456c6f16e54f6"
+},{
+  "_id": {
+    "$oid": "629293b4a95456c6f16e54fb"
+  },
+  "pname": "Juan Roberto",
+  "plastname": "Pupo Pérez",
+  "age": 43,
+  "univid": "6292927aa95456c6f16e54f6"
+}]

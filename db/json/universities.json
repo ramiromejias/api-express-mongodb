@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "62929258a95456c6f16e54f5"
+  },
+  "uname": "Universidad Politécnica de Cataluña",
+  "address": "Cataluña. España",
+  "ranknum": 35
+},{
+  "_id": {
+    "$oid": "6292927aa95456c6f16e54f6"
+  },
+  "uname": "Universidad de Miami",
+  "address": "Florida. Estados Unidos",
+  "ranknum": 23
+}]
