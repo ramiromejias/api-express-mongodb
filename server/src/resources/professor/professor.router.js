@@ -15,4 +15,8 @@ router
   .put(professorControllers.updateOne)
   .delete(professorControllers.deleteOne);
 
+router
+  .route("/:id/university")
+  .get(professorControllers.findMany);
+
 module.exports = router;

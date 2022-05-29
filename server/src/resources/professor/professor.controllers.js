@@ -2,14 +2,20 @@ const res = require('express/lib/response');
 const Professor = require('./professor.model');
 
 const findMany = async (req, res) => {
-    try {
+  const { id } = req.params;  
+  try {
+    if (id) {
+      const docs = await Professor.find({ univid: id }).lean().exec();
+      res.status(200).json({ results: docs });
+    } else {
       const docs = await Professor.find().lean().exec();
       res.status(200).json({ results: docs });
-    } catch (e) {
-      console.log(e);
-      res.status(500).json({ error: 'Internal error' });
     }
+  } catch (e) {
+    console.log(e);
+    res.status(500).json({ error: 'Internal error' });
   }
+}
 
 const createOne = async (req, res) => {
     try {
