@@ -13,6 +13,9 @@ app.use(express.json());
 const universityRouter = require('./resources/university/university.router');
 app.use('/universities', universityRouter);
 
+const professorRouter = require('./resources/professor/professor.router');
+app.use('/professors', professorRouter);
+
 const startServer = async () => {
     await db.connect();
     app.listen(PORT, () => {
