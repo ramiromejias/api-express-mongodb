@@ -7,16 +7,13 @@ const router = Router();
 router
   .route("/")
   .get(professorControllers.findMany)
-  .post(professorControllers.createOne);
+  .post(professorControllers.createOne)
+  .delete(professorControllers.deleteAll);
 
 router
   .route("/:id")
   .get(professorControllers.findOne)
   .put(professorControllers.updateOne)
   .delete(professorControllers.deleteOne);
-
-router
-  .route("/:id/university")
-  .get(professorControllers.findMany);
 
 module.exports = router;
